@@ -1,0 +1,39 @@
+*{
+
+}
+body{
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to left top,#abdbe3, #D814CA
+    );
+}
+
+#container{
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 5px;
+    width: 780px;
+    border: black 15px;
+}
+
+#qHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#questoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#questoes button{
+    width: 300px;
+    margin: 5px;
+}
